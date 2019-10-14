@@ -5,12 +5,9 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './number.component.html',
   styleUrls: ['./number.component.css']
 })
-export class NumberComponent implements OnInit {
+export class NumberComponent  {
   @Input() number:number;
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

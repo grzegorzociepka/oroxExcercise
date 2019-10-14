@@ -1,0 +1,13 @@
+.number{
+    display:block;
+    padding:0 3em;
+    width:auto;
+}
+.btn{
+    width:100%;
+    padding:1em;
+    margin-bottom:1em;
+}
+.center{
+    text-align:center;
+}
