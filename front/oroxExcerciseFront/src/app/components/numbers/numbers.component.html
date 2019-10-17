@@ -1,6 +1,6 @@
-<button 
+<button #input
     class="btn center"
     (click)="getRandomNumber()">Click me</button>
 <app-number 
     class="number center" 
-    [number]="ActualNumber"></app-number>
+    [number]="actualNumber | async"></app-number>
